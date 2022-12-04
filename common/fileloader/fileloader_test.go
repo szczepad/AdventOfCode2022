@@ -1,4 +1,4 @@
-package main
+package fileloader
 
 import "testing"
 

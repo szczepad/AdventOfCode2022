@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/szczepad/AdventOfCode2022/common/fileloader"
+)
 
 func main() {
-	inputString := LoadFile("input.txt")
+	inputString := fileloader.LoadFile("input.txt")
 
 	inventories := CreateInventoryFromStringArray(inputString)
 
