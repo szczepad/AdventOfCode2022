@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/szczepad/AdventOfCode2022/common/fileloader"
+)
 
 func main() {
-	file := LoadFile("input.txt")
+	file := fileloader.LoadFile("input.txt")
 	matches := CreateMatchesFromInput(file)
 
 	//Part 1
