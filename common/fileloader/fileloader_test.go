@@ -15,8 +15,8 @@ func TestLoadInputAsStrings(t *testing.T) {
 		"7000",
 		"8000",
 		"9000",
-		"",
-		"A Y"}
+		"A Y",
+		"vJrwpWtwJgWrhcsFMMfFFhFp"}
 
 	got := LoadFile("input_test.txt")
 
